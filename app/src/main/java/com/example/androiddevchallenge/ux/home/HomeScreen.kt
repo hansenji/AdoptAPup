@@ -43,7 +43,7 @@ import com.example.androiddevchallenge.model.PupRepository
 import com.example.androiddevchallenge.ui.theme.MyTheme
 import com.example.androiddevchallenge.ux.Screen
 import com.example.androiddevchallenge.ux.detail.DetailScreen
-import dev.chrisbanes.accompanist.coil.CoilImage
+import com.google.accompanist.coil.CoilImage
 
 object HomeScreen : Screen {
     override val route = "home"

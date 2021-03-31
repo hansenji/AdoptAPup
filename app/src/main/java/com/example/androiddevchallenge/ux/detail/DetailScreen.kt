@@ -16,6 +16,7 @@
 package com.example.androiddevchallenge.ux.detail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -38,7 +39,7 @@ import com.example.androiddevchallenge.model.PupRepository
 import com.example.androiddevchallenge.ui.KEY_APP_BAR_TITLE
 import com.example.androiddevchallenge.ux.Screen
 import com.example.androiddevchallenge.ux.detail.DetailScreen.Args.ID
-import dev.chrisbanes.accompanist.coil.CoilImage
+import com.google.accompanist.coil.CoilImage
 
 object DetailScreen : Screen {
     override val route = "detail/{$ID}?$KEY_APP_BAR_TITLE={$KEY_APP_BAR_TITLE}"
