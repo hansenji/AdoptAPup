@@ -1,4 +1,4 @@
-# Put title of your app here
+# Adopt a Pup
 
 ![Workflow result](https://github.com/hansenji/AdoptAPup/workflows/Check/badge.svg)
 
